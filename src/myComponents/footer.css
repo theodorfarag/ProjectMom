@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import "tailwindcss";
+@import "tw-animate-css";
+
+/* @custom-variant dark (&:is(.dark *)); */
+@theme {
+  --font-inter: "inter", sans-serif;
+}
+
+.footer-heading {
+    @apply dark:text-gray-400 text-black text-xs pt-2 max-md:align-middle;
+}
+
+.footer-list {
+  @apply flex flex-col justify-start ;
+}
+
+.footer-list-item {
+  @apply text-gray-400 dark:text-white text-xs pt-1 hover:underline max-sm:text-center;
+}
+
+.socail-media-icons {
+  @apply flex justify-center
+}
+
+.media-icon {
+  @apply text-2xl transition-colors
+}
+
+a {
+  width: fit-content;
+}
