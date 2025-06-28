@@ -19,9 +19,9 @@ const ImageCarousel: React.FC<CarouselProps> = ({ images }) => {
         className={`carousel-img rounded shadow border w-64 h-64 object-cover mb-2 ${images[current].className ?? ""}`}
       />
       <div className="flex gap-2">
-        <button onClick={prev} className="px-2 py-1 bg-gray-200 rounded">Prev</button>
+        <button onClick={prev} className="px-2 py-1 bg-gray-200 rounded dark:bg-gray-800">Prev</button>
         <span>{current + 1} / {images.length}</span>
-        <button onClick={next} className="px-2 py-1 bg-gray-200 rounded">Next</button>
+        <button onClick={next} className="px-2 py-1 bg-gray-200 dark:bg-gray-800 rounded">Next</button>
       </div>
     </div>
   );
