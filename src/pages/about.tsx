@@ -1,6 +1,6 @@
-import { FaLinkedin, FaInstagram } from 'react-icons/fa';
+import { FaLinkedin, FaInstagram, FaGithub } from 'react-icons/fa';
 
-const aboutText = "I'm an inspiring Software but also a mama's boy. I like to workout, play sports like basketball and volleyball, go serve at my coptic orthodox church. I study Computer Science at UMass Lowell";
+const aboutText = "I'm an inspiring Software but also a mama's boy. I like to workout, play sports like basketball and volleyball, go serve at my coptic orthodox church. I study Computer Science at UMass Lowell.";
 
 // Additional content
 const professionalText = "Professionally, I am passionate about software engineering, with hands-on experience in full-stack development, cloud technologies, and agile methodologies. My academic journey at UMass Lowell has provided me with a solid foundation in computer science and a drive to solve real-world problems through technology.";
@@ -22,6 +22,9 @@ const About = () => {
                         </a>
                         <a href="https://www.instagram.com/theodorfarag/">
                             <FaInstagram className='dark:text-white pl-1  hover:text-red-500 transition-colors'/>
+                        </a>
+                        <a href="https://github.com/theodorfarag" target="_blank" rel="noopener noreferrer">
+                            <FaGithub className="dark:text-white pl-1 hover:text-gray-500 transition-colors" />
                         </a>
                     </div>
                     {/* Portfolio Website Link */}
